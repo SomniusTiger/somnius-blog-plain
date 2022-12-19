@@ -1,17 +1,16 @@
 // tt = title, bb = brief, ln = link, // = comment (skip)
-tt mastodon
-bb run yr own social!! 
-ln https://runyourown.social/
 
-tt email
-bb person-or-am-i@example.com
+tt Email
+bb meow[at]somni.us
 
-tt code
-ln https://codeberg.com
+tt Merveilles.town
+bb For more short-form posting. Runs on Hometown, a fork of Mastodon. I administer and moderate this instance.
+ln https://merveilles.town/@somnius
 
-tt irc
-bb meet me in libera chat
+tt Cohost
+bb See my longer-form posting here
+ln https://cohost.org/somnius
 
-tt chat
-bb cool p2p chat
-ln https://cabal.chat
+tt Telegram
+bb My main messaging platform
+ln https://t.me/somnius

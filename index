@@ -11,14 +11,24 @@
 // //   a comment, skip this line entirely (note: must be on a new line)
 
 ww /
-tt # my website
-bb welcome to my net abode 
+tt # Hello! I'm Somnius.
+bb <img class="somnius-image" src="/assets/images/somnius.svg" alt="A small anthropomorphic tiger drawn in black and white, looking at the viewer" />
+bb Achromatic, audiophile, polyglot, coder, indie & rhythm gamer. Any pronouns. A blend of positivity and nihilism. Ⓥ
+bb This is my personal website where I share my thoughts, what I'm working on, and more.
+cp assets
 // this includes the listicle `projects` which defines actual content that is inserted for the / route (defined by ww) 
 cf projects
 // set the navigation element to `home` for the index page
 nn home
 
+ww /articles
+tt ## Articles
+bb Posts about various topics that I've written.
+cf articles
+nn articles
+cc Articles from somni.us
+
 ww /
 tt ## Contact
-bb find me on the web
+bb I post in other places! Come find me here:
 cf contacts
