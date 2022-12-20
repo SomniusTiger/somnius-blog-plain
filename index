@@ -21,6 +21,11 @@ cf projects
 // set the navigation element to `home` for the index page
 nn home
 
+ww /
+tt ## Contact
+bb I post in other places! Come find me here:
+cf contacts
+
 ww /articles
 tt ## Articles
 bb Posts about various topics that I've written.
@@ -28,7 +33,8 @@ cf articles
 nn articles
 cc Articles from somni.us
 
-ww /
-tt ## Contact
-bb I post in other places! Come find me here:
-cf contacts
+ww /feeds
+tt ## RSS Feeds
+bb RSS Feeds for this website
+cf feeds
+nn rss
