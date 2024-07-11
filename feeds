@@ -1,8 +1,8 @@
-tt articles
+tt articles.xml
 bb Articles from somni.us
 ln /articles.xml
 
-tt all
+tt all.xml
 bb all of somni.us
 ln /all.xml
 

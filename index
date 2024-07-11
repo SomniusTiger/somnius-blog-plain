@@ -13,7 +13,7 @@
 ww /
 tt # Hello! I'm Somnius.
 bb <img class="somnius-image" src="/assets/somnius.svg" alt="A small anthropomorphic tiger drawn in black and white, looking at the viewer" />
-bb Achromatic, audiophile, polyglot, coder, indie & rhythm gamer. Any pronouns. A blend of positivity and nihilism. Ⓥ
+bb Achromatic, audiophile, polyglot, coder, indie & rhythm gamer. Any pronouns. A blend of positivity and nihilism.
 bb This is my personal website where I share my thoughts, what I'm working on, and more.
 cp assets
 // this includes the listicle `projects` which defines actual content that is inserted for the / route (defined by ww) 
@@ -32,6 +32,13 @@ bb Posts about various topics that I've written.
 cf articles
 nn articles
 cc Articles from somni.us
+
+// ww /system
+// tt ## System
+// bb Posts describing the parts in my system, and what a system is
+// cf system
+// nn system
+// cc Parts of the Somnius system, described in posts
 
 ww /feeds
 tt ## RSS Feeds
