@@ -12,9 +12,9 @@
 
 ww /
 tt # Hello! I'm Somnius.
-bb <img class="somnius-image" src="/assets/somnius.svg" alt="A small anthropomorphic tiger drawn in black and white, looking at the viewer" />
-bb Achromatic, audiophile, polyglot, coder, indie & rhythm gamer. Any pronouns. A blend of positivity and nihilism.
-bb This is my personal website where I share my thoughts, what I'm working on, and more.
+bb <img class="somnius-image" src="/assets/somnius_crop.jpeg" alt="A white tiger, with a glitchy right eye, reclines backwards on a kitchen counter. They're holding a latte with leafy latte art drawn in the liquid in their paws, a music note appearing in a speech bubble next to their muzzle." />
+bb I'm a nonbinary, achromatic, polyamorous, sleepy robot tiger. I like indie & rhythm games, making espresso drinks, coding, hiking, high-quality audio, and lots more. Any pronouns are good to refer to me.
+bb This is my personal website where I share my thoughts, what I'm working on, and whatever else I like.
 cp assets
 // this includes the listicle `projects` which defines actual content that is inserted for the / route (defined by ww) 
 cf projects
@@ -25,6 +25,10 @@ ww /
 tt ## Contact
 bb I post in other places! Come find me here:
 cf contacts
+
+ww /
+tt ## References
+cf references
 
 ww /articles
 tt ## Articles

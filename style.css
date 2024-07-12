@@ -245,9 +245,18 @@ button:hover, input:hover {
 }
 
 .somnius-image {
-    background-color: #fff;
     border-radius: 50%;
-    box-shadow: 0 0 0 1rem black inset;
+    max-height: 400px;
+    max-width: 400px;
+    width: 100%;
+}
+
+dt {
+    font-size: 18px;
+}
+
+dt:first-of-type {
+    margin-top: 8px;
 }
 
 /* IPHONE 5S/SE*/
