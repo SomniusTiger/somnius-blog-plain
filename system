@@ -1,5 +1,45 @@
 // tt = title, bb = brief, md = copy markdown file to webroot, mv = create redirect for argument, cp = copy directory // = comment (skip)
 
-// tt What is a system?
-// bb It's a way for one body to have multiple internal parts that work together. At least, that's how it works for me. See this post for more info.
-// md wiki/system/system-intro.md
+tt What is a system?
+bb It’s a way for one person to have multiple internal parts that work together. The above link describes what this means to me in more detail. <br><br>
+cp assets
+md wiki/system/system-intro.md
+
+tt System Parts
+bb I have 9 “parts” in my system. The below image features symbols for each part. Starting at the top and going clockwise, the symbols are: Somnius, Felix, Venir, Rutilan, Cerrex, Belluan, Logus, Onscienta, and Officius: <img src="/assets/system-sigil.jpeg" alt="A series of 9 symbols drawn in circles following a circle, connected on the outside by 3 thick lines and connected on the inside by a 9-point star that has lines drawn to each circle."/>
+
+tt Belluan
+bb The Beast
+md wiki/system/belluan.md
+
+tt Cerrex
+bb The Shadow
+md wiki/system/cerrex.md
+
+tt Felix
+bb The Changeling
+md wiki/system/felix.md
+
+tt Logus
+bb The Sage
+md wiki/system/logus.md
+
+tt Officius
+bb The Dutiful
+md wiki/system/officius.md
+
+tt Onscienta
+bb The Judge
+md wiki/system/onscienta.md
+
+tt Rutilan
+bb The Will
+md wiki/system/rutilan.md
+
+tt Somnius
+bb The Creator
+md wiki/system/somnius.md
+
+tt Venir
+bb The Explorer
+md wiki/system/venir.md

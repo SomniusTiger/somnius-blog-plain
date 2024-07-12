@@ -11,15 +11,16 @@
 // //   a comment, skip this line entirely (note: must be on a new line)
 
 ww /
-tt # Hello! I'm Somnius.
-bb <div class="main-img-container"><div class="main-img-inner-wrap"><img class="somnius-image" src="/assets/somnius_crop.jpeg" alt="A white tiger, with a glitchy right eye, reclines backwards on a kitchen counter. They're holding a latte with leafy latte art drawn in the liquid in their paws, a music note appearing in a speech bubble next to their muzzle." /></div></div>
-bb I'm a nonbinary, achromatic, polyamorous, sleepy robot tiger. I like indie & rhythm games, making espresso drinks, coding, hiking, high-quality audio, and lots more. Any pronouns are good to refer to me.
+tt # Hello! I’m Somnius.
+bb <div class="main-img-container"><div class="main-img-inner-wrap"><img class="somnius-image" src="/assets/somnius_crop.jpeg" alt="A white tiger, with a glitchy right eye, reclines backwards on a kitchen counter. They’re holding a latte with leafy latte art drawn in the liquid in their paws, a music note appearing in a speech bubble next to their muzzle." /></div></div>
+bb I’m a nonbinary, achromatic, polyamorous, sleepy robot tiger. Any pronouns are good to refer to me. I like indie & rhythm games, making espresso drinks, coding, hiking, high-quality audio, and lots more.
+bb I taught myself how to code the front-end (HTML / CSS / JS) of websites for a living, and have a Bachelor's degree in UI/UX design.
 bb This is my personal website—my online haven—where I share my thoughts, what I'm working on, and whatever else I like.
 cp assets
 // this includes the listicle `projects` which defines actual content that is inserted for the / route (defined by ww) 
 cf projects
 // set the navigation element to `home` for the index page
-nn home
+// nn home
 
 ww /
 tt ## Contact
@@ -29,6 +30,12 @@ ww /
 tt ## References
 cf references
 
+// Main wrapper section
+ww /directory
+tt ## Main Directory
+bb Contains links to all main page categories.
+cf projects
+
 ww /articles
 tt ## Articles
 bb Posts about various topics that I've written.
@@ -36,12 +43,16 @@ cf articles
 nn articles
 cc Articles from somni.us
 
-// ww /system
-// tt ## System
-// bb Posts describing the parts in my system, and what a system is
-// cf system
-// nn system
-// cc Parts of the Somnius system, described in posts
+ww /system
+tt ## System
+bb I think of myself as different internal parts that all work together. These posts describe more about what that means to me.
+cf system
+nn system
+cc I think of myself as different internal parts that all work together. These posts describe more about what that means to me.
+
+// For testing markdown
+ww /example
+md wiki/example.md
 
 ww /feeds
 tt ## RSS Feeds

@@ -1,9 +1,9 @@
 // tt = title, bb = brief, ln = link, // = comment (skip)
 
 tt Articles
-bb Posts about various topics that I've written.
+bb Posts about various topics that I’ve written.
 ln /articles
 
-// tt System
-// bb Posts describing the parts in my system
-// ln /system
+tt System
+bb I think of myself as different internal parts that all work together. These posts describe more about what that means to me.
+ln /system

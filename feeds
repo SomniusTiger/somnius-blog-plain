@@ -2,6 +2,10 @@ tt articles.xml
 bb Articles from somni.us
 ln /articles.xml
 
+tt system.xml
+bb I think of myself as different internal parts that all work together. These posts describe more about what that means to me.
+ln /system.xml
+
 tt all.xml
 bb all of somni.us
 ln /all.xml
