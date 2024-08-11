@@ -8,7 +8,7 @@ Congratulations, you found this page! I use this for testing how the markdown on
 ##### Header 5
 ###### Header 6
 
-Here is a paragraph with *emphasis*, **strong importance**, and a ~strikethrough~.
+Here is a paragraph with *emphasis*, **strong importance**, and a ~strikethrough~. And here's some `code and stuff` for good measure
 
 > A blockquote with a link: https://somni.us/ https://duckduckgo.com/
 
@@ -36,8 +36,8 @@ Lists:
 
 A table:
 
-| a | b | c |
-| - | - | - |
+| a     | b      | c     |
+| ----- | ------ | ----- |
 | first | second | third |
 | first | second | third |
 | first | second | third |

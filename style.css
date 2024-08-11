@@ -148,8 +148,8 @@ pre {
 }
 
 code {
-    color: light-dark(var(--dark), var(--light));
-    background: unset;
+    color: light-dark(var(--light), var(--dark));
+    background: light-dark(var(--dark), var(--light));
     padding: 0.25rem; 
     padding-bottom: 0.15rem;
     border-radius: 2px;
@@ -189,7 +189,7 @@ h1 + ol, h2 + ol, h3 + ol {
     padding-top: 1rem;
 }
 
-ul, ol { margin-left: 1rem; }
+ul, ol { margin-left: 1rem; padding: .5rem 0; }
 li > ul, li > ol { margin-left: 2rem; }
 
 p {
@@ -205,7 +205,7 @@ table {
 
 td, th {
     padding: 0.5rem;
-    border: 1px white solid;
+    border: 1px light-dark(var(--black), var(--white)) solid;
 }
 
 .visible { display: block; }
