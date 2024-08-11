@@ -12,6 +12,15 @@ Here is a paragraph with *emphasis*, **strong importance**, and a ~strikethrough
 
 > A blockquote with a link: https://somni.us/ https://duckduckgo.com/
 
+```
+// A block of code
+
+h4 { font-weight: bold; }
+h5 { font-style: italic; }
+h1 + h2, h1 + h3, h2 + h3 { margin-top: 0; }
+h1 + h4 { margin-top: 2rem; }
+```
+
 Lists: 
 
 * Unordered

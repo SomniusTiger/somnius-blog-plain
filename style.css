@@ -4,14 +4,17 @@
     --light: #fefefe;
     --grey: #5d5d5d;
     --white: #f2f2f2;
+    --black: #0f0f0f;
     --code-bg: #111;
     --time: 100ms;
+
+    color-scheme: light dark;
 }
 
 /* Reset.css Courtesy of XXIIVV */
 * { margin:0;padding:0;border:0;outline:0;text-decoration:none;font-weight:inherit;font-style:inherit;color:inherit;font-size:100%;font-family:inherit;vertical-align:baseline;border-collapse:collapse;border-spacing:0; -webkit-font-smoothing: antialiased;-moz-osx-font-smoothing: grayscale; scrollbar-width: thin; scrollbar-color: var(--light) var(--dark); }
 *:focus { outline: none}
-::selection { background: #F2F2F2; opacity:1.0; color:#000; padding:10px; /* Safari */ }
+::selection { background: light-dark(var(--white), var(--black)); opacity:1.0; color:light-dark(var(--black), var(--white)); padding:10px; /* Safari */ }
 
 body { background:#000; overflow-x: hidden; transition: opacity 150ms; opacity: 1 !important}
 b { font-weight:bold; }
@@ -19,7 +22,12 @@ i { font-style:italic; }
 a { cursor: pointer; }
 ul { list-style-position: outside; }
 hr { clear:both; }
-code { white-space: pre; color: var(--light); background: var(--dark); font-family: monospace; }
+code { 
+    white-space: pre;
+    color: light-dark(var(--light), var(--dark));
+    background: light-dark(var(--dark), var(--light));
+    font-family: monospace;
+}
 svg { stroke-width: 10;stroke: white;stroke-linecap: round; }
 strong { font-weight: bold; }
 a code {
@@ -43,8 +51,8 @@ html  {
 
 html {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-    background-color: var(--dark);
-    color: var(--light);
+    background-color: light-dark(var(--light), var(--dark));
+    color: light-dark(var(--dark), var(--light));
     line-height: 1.5rem;
 }
 
@@ -62,8 +70,8 @@ body {
     padding: 5rem;
     padding-top: 1.5rem;
     padding-bottom: 2.5rem;
-    background: var(--dark);
-    color: var(--light);
+    background-color: light-dark(var(--light), var(--dark));
+    color: light-dark(var(--dark), var(--light));
 }
 
 header { margin-bottom: 1rem; }
@@ -110,38 +118,38 @@ em { font-style: italic; }
 del { text-decoration: line-through; }
 
 a {
-    color: var(--white);
+    color: light-dark(var(--black), var(--white));
     text-decoration: none;
     -webkit-transition: opacity var(--time) ease-in-out;
     -moz-transition: opacity var(--time) ease-in-out;
     -ms-transition: opacity var(--time) ease-in-out;
     -o-transition: opacity var(--time) ease-in-out;
     transition: opacity var(--time) ease-in-out;
-    border-bottom: 1px dotted white;
+    border-bottom: 1px dotted light-dark(var(--black), var(--white));
 }
 a:hover { opacity: 0.7; }
-a:visited { color: var(--white); }
+a:visited { color: light-dark(var(--black), var(--white)); }
 a[href^="http://"], a[href^="https://"] {
-    border-bottom: 1px dashed white;
+    border-bottom: 1px dashed light-dark(var(--black), var(--white));
 }
 
 blockquote, pre {
     padding: 0.5rem 2rem;
     margin: 1rem 0;
-    border-left: var(--white) .1rem solid;
-    background: #0f0f0f;
+    border-left: light-dark(var(--black), var(--white)) .1rem solid;
+    background: light-dark(var(--white), var(--black));
     width: calc(100% - 2.5rem);
     overflow: scroll;
 }
 
 pre {
-    background: var(--light);
+    background: light-dark(var(--black), var(--white));
     border-left: unset;
 }
 
 code {
-    color: var(--code-bg);
-    background: var(--light);
+    color: light-dark(var(--dark), var(--light));
+    background: unset;
     padding: 0.25rem; 
     padding-bottom: 0.15rem;
     border-radius: 2px;
@@ -156,7 +164,7 @@ code {
 
 pre code {
     border-style: dotted;
-    color: var(--dark);
+    color: light-dark(var(--light), var(--dark));
     padding: unset;
     border-radius: unset;
     background: unset;
@@ -290,5 +298,5 @@ and (max-width: 667px) {
         padding: 2rem;
     }
 
-    a { border-bottom: 1px white solid; }
+    a { border-bottom: 1px light-dark(var(--black), var(--white)) solid; }
 }
