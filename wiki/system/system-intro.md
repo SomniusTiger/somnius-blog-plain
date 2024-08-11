@@ -1,6 +1,6 @@
 # What is a system?
 
-<img src="/assets/system-sigil.jpeg" alt="A series of 9 symbols drawn in circles following a circle, connected on the outside by 3 thick lines and connected on the inside by a 9-point star that has lines drawn to each circle."/>
+<img src="/assets/system-sigil.jpeg" width="961" alt="A series of 9 symbols drawn in circles following a circle, connected on the outside by 3 thick lines and connected on the inside by a 9-point star that has lines drawn to each circle."/>
 
 You may feel that you have an “analytical” side, a “creative” side, a side that likes to party, and/or a side that likes technical work. For me, I have discovered those different sides of myself and have given them names, explored their personalities and backstories, and come up with symbols, species, and colors that have special meaning to me.
 

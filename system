@@ -6,7 +6,7 @@ cp assets
 md wiki/system/system-intro.md
 
 tt System Parts
-bb I have 9 “parts” in my system. The below image features symbols for each part. Starting at the top and going clockwise, the symbols are: Somnius, Felix, Venir, Rutilan, Cerrex, Belluan, Logus, Onscienta, and Officius: <img src="/assets/system-sigil.jpeg" alt="A series of 9 symbols drawn in circles following a circle, connected on the outside by 3 thick lines and connected on the inside by a 9-point star that has lines drawn to each circle."/>
+bb I have 9 “parts” in my system. The below image features symbols for each part. Starting at the top and going clockwise, the symbols are: Somnius, Felix, Venir, Rutilan, Cerrex, Belluan, Logus, Onscienta, and Officius: <img src="/assets/system-sigil.jpeg" width="961" alt="A series of 9 symbols drawn in circles following a circle, connected on the outside by 3 thick lines and connected on the inside by a 9-point star that has lines drawn to each circle."/>
 
 tt Belluan
 bb The Beast
