@@ -1,7 +1,7 @@
 // tt = title, bb = brief, md = copy markdown file to webroot, mv = create redirect for argument, cp = copy directory // = comment (skip)
 
 tt What is a system?
-bb It’s a way for one person to have multiple internal parts that work together. The above link describes what this means to me in more detail. <br><br>
+bb It’s a way for one person to have multiple internal parts that work together. The above link describes what this means to me in more detail.
 cp assets
 md wiki/system/system-intro.md
 
