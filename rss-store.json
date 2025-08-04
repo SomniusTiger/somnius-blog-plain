@@ -3,6 +3,18 @@
     "RSSItem": "\u003citem\u003e\n  \u003ctitle\u003eScaling Mastodon\u003c/title\u003e\n  \u003clink\u003ehttps://somni.us/scaling-mastodon\u003c/link\u003e\n  \u003cdescription\u003eMy experience with scaling Mastodon during 2022.\u003c/description\u003e\n  \u003cpubDate\u003eTue, 20 Dec 2022 02:35:18 -0800\u003c/pubDate\u003e\n\u003c/item\u003e",
     "Pubdate": 1671532518
   },
+  "creations/Audio": {
+    "RSSItem": "\u003citem\u003e\n  \u003ctitle\u003eAudio\u003c/title\u003e\n  \u003clink\u003ehttps://somni.us/projects/audio\u003c/link\u003e\n  \u003cdescription\u003eMusic and other audio items\u003c/description\u003e\n  \u003cpubDate\u003eTue, 08 Jul 2025 00:55:39 -0400\u003c/pubDate\u003e\n\u003c/item\u003e",
+    "Pubdate": 1751950539
+  },
+  "creations/Code": {
+    "RSSItem": "\u003citem\u003e\n  \u003ctitle\u003eCode\u003c/title\u003e\n  \u003clink\u003ehttps://somni.us/projects/code\u003c/link\u003e\n  \u003cdescription\u003eCoding related items\u003c/description\u003e\n  \u003cpubDate\u003eTue, 08 Jul 2025 00:55:39 -0400\u003c/pubDate\u003e\n\u003c/item\u003e",
+    "Pubdate": 1751950539
+  },
+  "creations/Visual": {
+    "RSSItem": "\u003citem\u003e\n  \u003ctitle\u003eVisual\u003c/title\u003e\n  \u003clink\u003ehttps://somni.us/projects/visual\u003c/link\u003e\n  \u003cdescription\u003eVisual art and more\u003c/description\u003e\n  \u003cpubDate\u003eTue, 08 Jul 2025 00:55:39 -0400\u003c/pubDate\u003e\n\u003c/item\u003e",
+    "Pubdate": 1751950539
+  },
   "system/Belluan": {
     "RSSItem": "\u003citem\u003e\n  \u003ctitle\u003eBelluan\u003c/title\u003e\n  \u003clink\u003ehttps://somni.us/belluan\u003c/link\u003e\n  \u003cdescription\u003eThe Beast\u003c/description\u003e\n  \u003cpubDate\u003eFri, 12 Jul 2024 14:33:10 -0400\u003c/pubDate\u003e\n\u003c/item\u003e",
     "Pubdate": 1720809190

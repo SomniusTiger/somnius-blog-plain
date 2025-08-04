@@ -1,0 +1,13 @@
+// tt = title, bb = brief, ln = link, // = comment (skip)
+
+tt Code
+bb Coding related items
+ln /creations/code
+
+tt Audio
+bb Music and other audio items
+ln /creations/audio
+
+tt Visual
+bb Visual art and more
+ln /creations/visual
